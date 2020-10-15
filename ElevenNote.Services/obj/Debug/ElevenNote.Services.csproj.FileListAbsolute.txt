@@ -14,3 +14,9 @@ C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\obj\Debug\E
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\obj\Debug\ElevenNote.Services.dll
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\obj\Debug\ElevenNote.Services.pdb
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\bin\Debug\ElevenNote.Data.pdb
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll.config
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\bin\Debug\ElevenNote.Models.pdb
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll.config
