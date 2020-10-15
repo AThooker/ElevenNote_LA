@@ -26,8 +26,8 @@ namespace ElevenNote.Services
                 Content = model.Content,
                 CreatedUtc = DateTimeOffset.Now
             };
-                _ctx.Notes.Add(entity);
-                return _ctx.SaveChanges() == 1;
+            _ctx.Notes.Add(entity);
+            return _ctx.SaveChanges() == 1;
         }
 
         public IEnumerable<NoteListItem> GetNotes()
@@ -38,7 +38,7 @@ namespace ElevenNote.Services
                     NoteId = p.NoteId,
                     Title = p.Title,
                     CreatedUtc = p.CreatedUtc
-                });
+                }); 
             return query.ToArray();
         }
         public NoteDetail GetNoteById(int id)

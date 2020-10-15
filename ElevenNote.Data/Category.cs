@@ -10,8 +10,7 @@ namespace ElevenNote.Data
     public class Category
     {
         [Key]
-        public int CategoryID { get; set; }
+        public int CategoryId { get; set; }
         public string Name { get; set; }
-        public ICollection<Note> Notes { get; set; }
     }
 }
