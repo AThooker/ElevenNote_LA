@@ -49,6 +49,7 @@ namespace ElevenNote.Services
                 NoteId = note.NoteId,
                 Title = note.Title,
                 Content = note.Content,
+                CategoryName = note.Category.Name,
                 CreatedUtc = note.CreatedUtc,
                 ModifiedUtc = note.ModifiedUtc
             };
