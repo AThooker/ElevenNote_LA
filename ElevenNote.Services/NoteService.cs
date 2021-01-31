@@ -44,6 +44,7 @@ namespace ElevenNote.Services
         public NoteDetail GetNoteById(int id)
         {
             var note = _ctx.Notes.Single(p => p.NoteId == id && p.OwnerId == _userId);
+            //var category = _ctx.Categories.Single(c => c.CategoryId == note.CategoryId);
             return new NoteDetail
             {
                 NoteId = note.NoteId,

@@ -27,11 +27,33 @@ namespace ElevenNote.Services
             var list = _ctx.Categories.Select(
                 p => new CategoryListItem
                 {
-                    CategoryId = p.CategoryId,
+                    CategoryId = (int)p.CategoryId,
                     Name = p.Name
                 });
             return list.ToArray();
         }
+        public CategoryDetail GetCategoryById(int? id)
+        {
+            var category = _ctx.Categories.Single(c => c.CategoryId == id);
+            return new CategoryDetail
+            {
+                CategoryId = category.CategoryId,
+                Name = category.Name
+            };
+        }
+        public bool UpdateCategory(CategoryDetail model)
+        {
+            var category = _ctx.Categories.Single(p => p.CategoryId == model.CategoryId);
 
+            category.CategoryId = model.CategoryId;
+            category.Name = model.Name;
+            return _ctx.SaveChanges() == 1;
+        }
+        public bool DeleteCategory(int id)
+        {
+            var category = _ctx.Categories.Single(c => c.CategoryId == id);
+            _ctx.Categories.Remove(category);
+            return _ctx.SaveChanges() == 1;
+        }
     }
 }

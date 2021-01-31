@@ -36,3 +36,5 @@ C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Data\obj\Debug\Eleve
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.InitialCreate.resources
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.GenerateResource.cache
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.first.resources
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.testingToken.resources
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.tokenMig.resources

@@ -94,6 +94,14 @@
     <Compile Include="Migrations\202010151936505_first.Designer.cs">
       <DependentUpon>202010151936505_first.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101311459211_testingToken.cs" />
+    <Compile Include="Migrations\202101311459211_testingToken.Designer.cs">
+      <DependentUpon>202101311459211_testingToken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101311512588_tokenMig.cs" />
+    <Compile Include="Migrations\202101311512588_tokenMig.Designer.cs">
+      <DependentUpon>202101311512588_tokenMig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -108,6 +116,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010151936505_first.resx">
       <DependentUpon>202010151936505_first.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101311459211_testingToken.resx">
+      <DependentUpon>202101311459211_testingToken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101311512588_tokenMig.resx">
+      <DependentUpon>202101311512588_tokenMig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
