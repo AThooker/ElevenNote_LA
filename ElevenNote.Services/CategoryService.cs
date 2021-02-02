@@ -38,7 +38,8 @@ namespace ElevenNote.Services
             return new CategoryDetail
             {
                 CategoryId = category.CategoryId,
-                Name = category.Name
+                Name = category.Name,
+                NoteCount = category.Notes.Count()
             };
         }
         public bool UpdateCategory(CategoryDetail model)
@@ -52,6 +53,11 @@ namespace ElevenNote.Services
         public bool DeleteCategory(int id)
         {
             var category = _ctx.Categories.Single(c => c.CategoryId == id);
+            if(category.Notes.Count >= 1)
+            {
+             var note = _ctx.Notes.Where(c => c.CategoryId == category.CategoryId);
+             
+            }
             _ctx.Categories.Remove(category);
             return _ctx.SaveChanges() == 1;
         }

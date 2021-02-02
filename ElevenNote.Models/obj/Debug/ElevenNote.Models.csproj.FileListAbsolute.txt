@@ -14,3 +14,6 @@ C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Models\obj\Debug\Ele
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Models\obj\Debug\ElevenNote.Models.csproj.CopyComplete
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Models\obj\Debug\ElevenNote.Models.dll
 C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Models\obj\Debug\ElevenNote.Models.pdb
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Models\bin\Debug\ElevenNote.Data.dll
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Models\bin\Debug\ElevenNote.Data.pdb
+C:\Users\Olivia Lee\Desktop\EFA-LA\ElevenNoteAPI\ElevenNote.Models\bin\Debug\ElevenNote.Data.dll.config

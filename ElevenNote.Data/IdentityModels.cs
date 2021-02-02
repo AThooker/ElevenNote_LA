@@ -39,6 +39,10 @@ namespace ElevenNote.Data
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             modelBuilder.Configurations.Add(new IdentityUserLoginConfiguration())
                 .Add(new IdentityUserRoleConfiguration());
+            modelBuilder.Entity<Note>().HasOptional(c => c.Category)
+                .WithMany()
+                .HasForeignKey(c => c.CategoryId)
+                .WillCascadeOnDelete(false);
         }
     }
 

@@ -65,7 +65,7 @@ namespace ElevenNoteAPI.Controllers
             var service = CreateCategoryService();
             if (!service.DeleteCategory(id))
             {
-                return InternalServerError();
+                return BadRequest("You are trying to delete a category that either does not exist or has notes affiliated with it.");
             }
             return Ok("Category Deleted");
         }

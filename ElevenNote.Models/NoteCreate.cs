@@ -14,5 +14,6 @@ namespace ElevenNote.Models
         public string Title { get; set; }
         [MaxLength(10000, ErrorMessage = "Note is too long")]
         public string Content { get; set; }
+        public int? CategoryId { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace ElevenNote.Data.Migrations
             DropIndex("dbo.Note", new[] { "CategoryId" });
             AlterColumn("dbo.Note", "CategoryId", c => c.Int());
             CreateIndex("dbo.Note", "CategoryId");
-            AddForeignKey("dbo.Note", "CategoryId", "dbo.Category", "CategoryId");
+            AddForeignKey("dbo.Note", "CategoryId", "dbo.Category", "CategoryId", cascadeDelete: false);
         }
         
         public override void Down()
@@ -20,7 +20,7 @@ namespace ElevenNote.Data.Migrations
             DropIndex("dbo.Note", new[] { "CategoryId" });
             AlterColumn("dbo.Note", "CategoryId", c => c.Int(nullable: false));
             CreateIndex("dbo.Note", "CategoryId");
-            AddForeignKey("dbo.Note", "CategoryId", "dbo.Category", "CategoryId", cascadeDelete: true);
+            AddForeignKey("dbo.Note", "CategoryId", "dbo.Category", "CategoryId", cascadeDelete: false);
         }
     }
 }
